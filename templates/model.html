@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Result</title>
+    <style>
+        .container{
+            display:flex;
+            
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 80%;
+            border-radius: 30px;
+            margin: auto;
+            margin-top: 100px;
+            transform: scale(1,1);
+        }
+        .res{
+            font-size: 70px;
+            margin: auto;
+            
+           
+        }
+        .img{
+           border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transform: scale(1,1);
+            height: 400px;
+            width: 50%;
+        }
+        .container:hover{
+            transform: scale(1.10,1.10);
+        }
+        .img:hover{
+            transform: scale(1.10,1.10);
+        }
+    </style>
+</head>
+<body>
+    <h1>Predected Image:</h1>
+   <div class="container">
+    <img src="{{image_source}}" alt="Uploaded Image" class="img"/>
+    <h1 class="res">{{res}}</h1>
+   </div>
+  
+</body>
+</html>
+

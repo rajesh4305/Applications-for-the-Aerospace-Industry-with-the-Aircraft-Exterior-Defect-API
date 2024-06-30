@@ -1,0 +1,23 @@
+.body{
+    background-color: rgb(255, 179, 0);
+}
+
+.container{
+
+    background-color: white;
+    border-radius: 100px;
+    height: 400px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1,1);
+}
+.container:hover{
+    transform: scale(1.10,1.10);
+}
+
+#form{
+    width: 50%;
+}
